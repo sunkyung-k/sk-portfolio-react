@@ -1,0 +1,6 @@
+@use "sass:map";
+
+@mixin reset-margins {
+  margin: 0;
+  padding: 0;
+}

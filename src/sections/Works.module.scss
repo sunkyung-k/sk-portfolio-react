@@ -1,0 +1,74 @@
+.cardWrap {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: space("lg");
+}
+
+.card {
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid color("gray-200");
+  border-radius: radius("md");
+  background-color: color("white");
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  }
+}
+
+.thumb {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background-color: color("gray-300");
+
+  img {
+    width: 100%;
+  }
+}
+
+.box {
+  padding: space("lg");
+  display: flex;
+  flex-direction: column;
+  gap: space("xs");
+  border-top: 1px solid color("gray-100");
+
+  h3 {
+    font-size: font("xl");
+    margin-bottom: space("xs");
+    color: color("dark");
+  }
+
+  p {
+    font-size: font("sm");
+    color: color("gray-400");
+  }
+
+  a {
+    margin-top: space("sm");
+    align-self: flex-start;
+    font-size: font("sm");
+    color: color("primary");
+    transition: color 0.2s;
+
+    &:hover {
+      color: color("primary");
+    }
+  }
+}
+
+@media (min-width: map.get($breakpoints, "md")) {
+  .cardWrap {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: map.get($breakpoints, "lg")) {
+  .cardWrap {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
