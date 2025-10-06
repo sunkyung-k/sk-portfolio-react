@@ -1,7 +1,7 @@
-import styles from "./Skills.module.scss";
 import SecTitle from "@/components/ui/SecTitle";
 import Section from "@/components/layout/Section";
 import { skillGroups } from "@/data/SkillsData";
+import styles from "./Skills.module.scss";
 
 function Skills() {
   return (

@@ -1,6 +1,6 @@
-import styles from "./Intro.module.scss";
 import profile from "/images/profile_emoji.png";
 import Section from "@/components/layout/Section";
+import styles from "./Intro.module.scss";
 
 function Intro() {
   return (

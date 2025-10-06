@@ -1,5 +1,3 @@
-@use "@/assets/scss/utils/functions" as *;
-
 .listWrap {
   display: grid;
   grid-template-columns: 1fr;
@@ -8,9 +6,9 @@
 
 .group {
   padding: space("lg");
-  border: 1px solid color("gray-200");
+  border: 1px solid get-color("gray-200");
   border-radius: radius("md");
-  background: color("white");
+  background: get-color("white");
   display: flex;
   flex-direction: column;
   gap: space("md");
@@ -18,7 +16,7 @@
 
 .groupTitle {
   font-size: font("lg");
-  border-bottom: 1px solid color("gray-200");
+  border-bottom: 1px solid get-color("gray-200");
   padding-bottom: space("md");
 }
 
@@ -34,27 +32,27 @@
   gap: 6px;
   padding: space("sm") space("md");
   border-radius: radius("xl");
-  background: color("gray-50");
+  background: get-color("gray-50");
   font-size: font("sm");
-  color: color("gray-400");
+  color: get-color("gray-400");
   transition: background 0.2s ease, transform 0.2s ease;
 
   svg {
     font-size: font("lg");
-    color: color("primary");
+    color: get-color("primary");
   }
 
   &:hover {
-    background: color("primary");
-    color: color("white");
+    background: get-color("primary");
+    color: get-color("white");
 
     svg {
-      color: color("white");
+      color: get-color("white");
     }
   }
 }
 
-@media (min-width: map.get($breakpoints, "md")) {
+@media (min-width: bp("md")) {
   .listWrap {
     grid-template-columns: repeat(3, 1fr);
   }

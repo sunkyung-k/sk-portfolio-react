@@ -1,7 +1,7 @@
 @use "sass:map";
 @use "@/assets/scss/utils/variables" as *;
 
-@function color($name) {
+@function get-color($name) {
   @if map.has-key($colors, $name) {
     @return map.get($colors, $name);
   }

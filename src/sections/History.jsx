@@ -1,7 +1,7 @@
-import styles from "./History.module.scss";
 import SecTitle from "@/components/ui/SecTitle";
 import Section from "@/components/layout/Section";
 import { history } from "@/data/HistoryData";
+import styles from "./History.module.scss";
 
 function History() {
   return (

@@ -42,13 +42,7 @@ $space: (
 
 $breakpoints: (
   "sm": 480px,
-  // 모바일
   "md": 768px,
-  // 태블릿
   "lg": 1024px,
-  // 작은 PC
-  "xl": 1200px // 메인 컨테이너,,,,,,,,,,,,,,,,
+  "xl": 1200px,
 );
-
-$font-family-default: "Pretendard", "Malgun Gothic", "맑은 고딕", "돋움", dotum,
-  sans-serif;

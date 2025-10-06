@@ -18,7 +18,7 @@
 
 .role {
   font-size: font("xl");
-  color: color("primary");
+  color: get-color("primary");
 }
 
 .desc {
@@ -26,7 +26,7 @@
   flex-direction: column;
   gap: space("sm");
   font-size: font("lg");
-  color: color("gray-400");
+  color: get-color("gray-400");
 }
 
 .imgBox {
@@ -37,7 +37,7 @@
   }
 }
 
-@media (min-width: map.get($breakpoints, "md")) {
+@media (min-width: bp("md")) {
   .inner {
     flex-direction: row;
     align-items: center;

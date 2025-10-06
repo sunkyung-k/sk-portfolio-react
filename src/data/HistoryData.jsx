@@ -4,7 +4,7 @@ export const history = [
     period: "3년 6개월",
     company: "이노부스트",
     type: "제약전문 크리에이티브 에이전시",
-    team: "IT부서 과장 / 퍼블리싱팀 리더",
+    team: "IT팀 과장 / 퍼블리싱 파트 리더",
     part: "퍼블리셔",
   },
   {

@@ -1,14 +1,13 @@
 import { MdClear } from "react-icons/md";
 import { gnbMenu } from "../../data/HeaderData";
-import styles from "./Gnb.module.scss";
 
 function Gnb({ open, closeMenu }) {
   return (
     <>
-      <aside className={`${styles.aside} ${open ? styles.open : ""}`}>
+      <aside className={`aside ${open ? "open" : ""}`}>
         <button
           type="button"
-          className={styles.closeBtn}
+          className="btn-close"
           onClick={closeMenu}
           aria-label="사이드 내비게이션 닫기"
         >
@@ -17,7 +16,7 @@ function Gnb({ open, closeMenu }) {
 
         <ul>
           {gnbMenu?.map((item, idx) => (
-            <li>
+            <li key={idx}>
               <a href={`#${item.toLowerCase()}`} onClick={closeMenu}>
                 {item}
               </a>
@@ -26,7 +25,7 @@ function Gnb({ open, closeMenu }) {
         </ul>
       </aside>
 
-      {open && <div className={styles.overlay} onClick={closeMenu}></div>}
+      {open && <div className="overlay" onClick={closeMenu}></div>}
     </>
   );
 }

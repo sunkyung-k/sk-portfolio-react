@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { MdMenu } from "react-icons/md";
-import styles from "./Header.module.scss";
 import Gnb from "./Gnb";
 
 function Header() {
@@ -8,12 +7,12 @@ function Header() {
   const closeMenu = () => setOpen(false);
 
   return (
-    <header className={styles.header}>
-      <h1 className={styles.logo}>KSK Portfolio</h1>
+    <header className="header">
+      <h1 className="logo">KSK Portfolio</h1>
 
       <button
         type="button"
-        className={styles.menuBtn}
+        className="btn-menu"
         onClick={() => setOpen(true)}
         aria-label="메뉴 열기"
       >
