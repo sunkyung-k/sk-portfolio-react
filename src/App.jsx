@@ -4,7 +4,7 @@ import Intro from "./sections/Intro";
 import Skills from "./sections/Skills";
 import History from "./sections/History";
 import Portfolio from "./sections/Works";
-import "./assets/scss/common.scss";
+import "./assets/scss/index.scss";
 
 export default function App() {
   return (
