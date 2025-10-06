@@ -1,5 +1,7 @@
 import profile from "/images/profile_emoji.png";
+import { RiNotionFill } from "react-icons/ri";
 import Section from "@/components/layout/Section";
+import { IntroGroup } from "@/data/IntroData";
 import styles from "./Intro.module.scss";
 
 function Intro() {
@@ -24,6 +26,17 @@ function Intro() {
             만듭니다.
           </p>
         </div>
+
+        <ul className={styles.list}>
+          {IntroGroup.map((item) => (
+            <li key={item.id}>
+              <a href={item.url} target="_blank">
+                <RiNotionFill size={20} />
+                {item.name}
+              </a>
+            </li>
+          ))}
+        </ul>
       </div>
     </Section>
   );

@@ -37,6 +37,25 @@
   }
 }
 
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: space("xs");
+
+  a {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    font-size: font("md");
+    text-decoration: underline;
+    color: get-color("gray-400");
+
+    &:hover {
+      color: get-color("primary");
+    }
+  }
+}
+
 @media (min-width: bp("md")) {
   .inner {
     flex-direction: row;
