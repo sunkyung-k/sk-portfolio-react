@@ -6,7 +6,7 @@ export const IntroGroup = [
   },
   {
     id: 2,
-    name: "경력 기술서",
+    name: "경력기술서",
     url: "https://www.notion.so/2841a88239c380e5aae9c13d614934a7?source=copy_link",
   },
 ];
