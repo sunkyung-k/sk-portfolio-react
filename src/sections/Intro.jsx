@@ -14,17 +14,12 @@ function Intro() {
         <h2 className={styles.name}>SunKyung Kim</h2>
         <p className={styles.role}>프론트엔드를 배우며 성장하는 퍼블리셔</p>
         <div className={styles.desc}>
-          <p>
-            10년간 웹 퍼블리싱 구축부터 유지보수까지 책임감 있게 수행해온 퍼블리셔입니다.
-          </p>
+          <p>10년간 웹 퍼블리싱 구축부터 유지보수까지 책임감 있게 수행해왔습니다.</p>
           <p>
             현재는 React와 JavaScript(ES6)를 학습하며, 컴포넌트 단위의 구조화된 개발
             방식에 집중하고 있습니다.
           </p>
-          <p>
-            배려하는 협업을 지향하며, 맡은 일은 책임감을 가지고 신뢰할 수 있는 결과로
-            만듭니다.
-          </p>
+          <p>함께 고민하고 조율하며, 팀의 방향에 맞춰 협력하는 일을 지향합니다.</p>
         </div>
 
         <ul className={styles.list}>
