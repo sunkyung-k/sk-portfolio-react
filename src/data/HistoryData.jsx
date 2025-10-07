@@ -10,7 +10,7 @@ export const history = [
   {
     year: "2015.09 - 2020.03",
     period: "4년 7개월",
-    company: "디지털웍스",
+    company: "아이뱅크[디지털웍스]",
     type: "웹 에이전시",
     team: "디지털개발사업부 대리",
     part: "퍼블리셔",
