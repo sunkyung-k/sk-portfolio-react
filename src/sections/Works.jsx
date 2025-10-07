@@ -22,7 +22,7 @@ function Works() {
             </div>
             <div className={styles.box}>
               <div>
-                <span className={styles.device}>{p.device}</span>
+                <span className="tag">{p.device}</span>
               </div>
               <h3>{p.title}</h3>
               <p>{p.desc}</p>
