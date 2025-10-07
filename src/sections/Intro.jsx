@@ -19,7 +19,7 @@ function Intro() {
             현재는 React와 JavaScript(ES6)를 학습하며, 컴포넌트 단위의 구조화된 개발
             방식에 집중하고 있습니다.
           </p>
-          <p>함께 고민하고 조율하며, 팀의 방향에 맞춰 협력하는 일을 지향합니다.</p>
+          <p>함께 고민하고 조율하며, 배려 있는 협업을 지향합니다.</p>
         </div>
 
         <ul className={styles.list}>
