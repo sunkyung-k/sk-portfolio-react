@@ -12,7 +12,7 @@ function Intro() {
       </div>
       <div className={styles.txtBox}>
         <h2 className={styles.name}>SunKyung Kim</h2>
-        <p className={styles.role}>프론트엔드를 배우며 성장하는 퍼블리셔</p>
+        <p className={styles.role}>프론트엔드 이해를 더해가는 퍼블리셔</p>
         <div className={styles.desc}>
           <p>10년간 웹 퍼블리싱 구축부터 유지보수까지 책임감 있게 수행해왔습니다.</p>
           <p>
