@@ -8,7 +8,7 @@ function Header() {
 
   return (
     <header className="header">
-      <h1 className="logo">KSK Portfolio</h1>
+      <h1 className="logo">sunkyung.dev</h1>
 
       <button
         type="button"

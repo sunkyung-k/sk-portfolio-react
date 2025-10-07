@@ -21,10 +21,12 @@ function Works() {
               <img src={p.img} alt={p.title} />
             </div>
             <div className={styles.box}>
+              <div>
+                <span className={styles.device}>{p.device}</span>
+              </div>
               <h3>{p.title}</h3>
-              <p>{p.device}</p>
               <p>{p.desc}</p>
-              <p>{p.role}</p>
+              {p.role && <p>{p.role}</p>}
               {p.link ? (
                 <a href={p.link} target="_blank" rel="noreferrer">
                   웹사이트 보기 →
